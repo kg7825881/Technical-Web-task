@@ -63,6 +63,3 @@ h1 {
     padding-top: 50px;
     font-size: 30px;
 }
-@media (max-width:768px) {
-    
-}
