@@ -1,0 +1,132 @@
+.back1 {
+    background-image: url("background2.avif");
+    background-position: 100%;
+    background-size:cover;
+    filter:brightness(0.8);
+    height: 800px; 
+    align-items: center;
+}
+#prevents {
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 0 4px 20px #fc9b9b;
+    text-transform: uppercase;
+}
+.card-wrapper {
+    max-width: 1100px;
+    margin: 30px 70px 50px;
+    padding: 20px 10px;
+}
+.card-list .card-item {
+    list-style: none;
+}
+.card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+}
+.card-list .card-item .card-link:active {
+    cursor: grabbing;
+}
+
+.card-list .card-item .card-link:hover {
+    border-color: rgb(20, 142, 11);
+}
+
+.card-list .card-link .card-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-list .card-link .badge {
+    color: rgb(0, 97, 145);
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background: rgb(215, 222, 251);
+    width: fit-content;
+    border-radius: 50px;
+}
+.card-list .card-link .badg {
+    color: black;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px 0 18px;
+    width: fit-content
+}
+
+.card-list .card-link .badge.event2 {
+    color: white;
+    background: rgb(228, 166, 255);
+}
+
+.card-list .card-link .badge.event3 {
+    color: white;
+    background: rgb(242, 122, 198);
+}
+
+.card-list .card-link .card-title {
+    font-size: 20px;
+    color: black;
+    padding: 8px 16px;
+    font-weight: 600;
+    margin: 16px 0 18px;
+    width: fit-content
+}
+.card-wrapper .swiper-pagination-bullet{
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: rgb(255, 255, 255);
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+.card-wrapper .swiper-slide-button {
+    color:rgb(245, 245, 254) ;
+    margin-top: -35px;
+}
+div {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+.title {
+    align-items: center;
+}
+pre {
+    margin: 0 0 0 0;
+}
+a {
+    background: rgb(169,255,250);
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 16px;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    .card-wrapper {
+        margin: 25px 10px 25px;
+    }
+
+    .card-wrapper .swiper-slide-button {
+        display: none;
+    }
+}
